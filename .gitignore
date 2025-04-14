@@ -1,0 +1,37 @@
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Jupyter stuff
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# VSCode remote & workspace files
+.vscode/
+.vscode-server/
+.vscode-remote/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Python cache
+*.log
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyTorch/huggingface model files
+*.pth
+*.pt
+*.bin
+
+# nanoGCG local install
+/nanoGCG/
